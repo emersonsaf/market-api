@@ -17,7 +17,8 @@ Este é o projeto do backend em Rails para a aplicação de uma mercado. Ele for
 3. Instale as dependências usando o comando `bundle install`.
 4. Configure o banco de dados no arquivo `config/database.yml`.
 5. Execute as migrações do banco de dados com o comando `rails db:migrate`.
-6. Inicie o servidor com o comando `rails server`.
+6. Execute o comando `rails db:seed` para popular a base com os dados iniciais.
+7. Inicie o servidor com o comando `rails server`.
 
 ## Endpoints da API
 
